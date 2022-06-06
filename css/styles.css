@@ -1,4 +1,90 @@
 body{
-    font-family: 'Ibarra Real Nova', serif;
-    /* font-family: 'Nova Square', cursive; */
+    /* font-family: 'Ibarra Real Nova', serif; */
+    font-family: 'Nova Square', cursive;
+    font-size: 16px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.fill-screen {
+    padding-top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+
+
+
+.fixed-attachment {
+    background-attachment: fixed;
+}
+
+.fil-screen {
+    padding-top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.title-row {
+    position: relative;
+    min-height: 300px;
+}
+
+
+
+.title {
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    
+}
+
+.first-name {
+    margin-top:150px;
+    color:#fff;
+    font-size: 300%;
+}
+
+.last-name {
+    color: #000;
+    font-weight: 900;
+    background-color: #2196f3;
+    padding: 0px 10px;
+}
+
+.sec-header{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.table-custom {
+    font-size: 80%;
+}
+
+.table-custom dt {
+    text-align: left;
+    font-weight: bold;
+}
+
+.table-custom dd {
+    text-align: left;
+}
+
+.social a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    color: #000;
+    border: 1px solid  #000;
 }
