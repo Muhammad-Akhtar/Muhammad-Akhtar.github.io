@@ -1,0 +1,11 @@
+create a project
+
+$ npm init
+
+$ npm install express
+
+$ node server.js
+
+
+Inside Experience Section Just share in, how many companies you have worked.
+state the working year, in which technologies you have worked e.t.c
