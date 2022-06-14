@@ -89,6 +89,15 @@ body {
     border: 1px solid #000;
 }
 
+.activity-elements {
+    text-align: center;
+}
+
+.card-container {
+    perspective: 700px;
+    -webkit-perspective: 700px;
+}
+
 .card {
     display: inline-block;
     position: relative;
@@ -99,6 +108,11 @@ body {
     height: 250px;
     transition: all 0.6s ease;
     transform-style: preserve-3d;
+}
+
+.card h4 {
+    margin: 0;
+    /* color: #fff; */
 }
 
 .front,
