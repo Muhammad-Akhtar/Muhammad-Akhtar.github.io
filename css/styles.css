@@ -122,24 +122,24 @@ body {
 
 }
 
-.front h3,
-.back h3 {
+.front h4,
+.front h5,
+.back h5,
+.back h5 {
     /* margin-top: 0.5px; */
-}
-
-.back h3{
-    color: #fff;
+    font-weight: bold;
 }
 
 .front {
     background: #b1c4d4;
-    /* border: 1px solid #b1c4d4; */
+    border: 1px solid #b1c4d4;
 
 }
 
 .back {
     background: #2196f3;
     transform: rotateY(180deg);
+    padding: 6px;
 }
 
 .card:hover {
