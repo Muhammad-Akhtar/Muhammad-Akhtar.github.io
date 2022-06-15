@@ -108,6 +108,7 @@ body {
     height: 250px;
     transition: all 0.6s ease;
     transform-style: preserve-3d;
+    line-height: 2.5em;
 }
 
 
@@ -123,7 +124,11 @@ body {
 
 .front h3,
 .back h3 {
-    margin-top: 0.5px;
+    /* margin-top: 0.5px; */
+}
+
+.back h3{
+    color: #fff;
 }
 
 .front {
