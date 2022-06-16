@@ -154,3 +154,27 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+article#skills-progress {
+    padding: 3px 10px 0;
+}
+
+#skills-progress div.progress {
+    font: bold;
+    color: #fff;
+    background-color: #f3f3f3;
+    border: none;
+    box-shadow: none;
+    height: 1.5em;
+}
+
+div.progress-bar>span {
+    float: left;
+    position: relative;
+    top: 4px;
+    left: 2%;
+}
+
+.progress-bar {
+    font-size: 100%;
+}
