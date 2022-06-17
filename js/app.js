@@ -11,10 +11,7 @@ $(document).ready(function () {
         // var bar_value = v.getAttribute('aria-valuenow');
         var bar_value = $(this).attr('aria-valuenow');
         $(v).animate({ width: bar_value + "%" }, 4000, 'swing', function (bar_value) {
-            debugger
             v = $(this).parent().children('.percent').html($(this).attr('aria-valuenow') + '%');
-            // $(v).html(45);
-            // alert($().html('45'));
         })
     })
 })

@@ -159,22 +159,46 @@ article#skills-progress {
     padding: 3px 10px 0;
 }
 
-#skills-progress div.progress {
+div.progress {
     font: bold;
     color: #fff;
     background-color: #f3f3f3;
     border: none;
     box-shadow: none;
-    height: 1.5em;
+    height: 1.1em;
+    border-radius: 1rem;
 }
 
 div.progress-bar>span {
     float: left;
     position: relative;
-    top: 4px;
+    top: -2px;
     left: 2%;
 }
 
-.progress-bar {
+.progress .progress-bar {
     font-size: 100%;
+    border-radius: 1rem;
+}
+
+.skill-level {
+    font-size: 80%;
+    color: #0fff04;
+    padding-right: 2%;
+}
+
+.skill-cards {
+    margin-top: 10px;
+}
+
+.skill-tech {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-banner {
+    text-align: center;
+    margin: 20px 12px;
 }
