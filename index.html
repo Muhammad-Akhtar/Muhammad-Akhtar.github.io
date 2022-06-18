@@ -11,13 +11,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@600&family=Nova+Square&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="css/resCarousel.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-default">
+    <header id="top">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -37,10 +40,11 @@
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                        <li><a href="#">Link 4</a></li>
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
 
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -58,7 +62,7 @@
             </div>
         </section>
 
-        <section class="row">
+        <section class="row" id="about">
             <article class="sec-header">
                 <h3> <i class="fa fa-user"></i> About Me</h3>
                 <hr>
@@ -91,7 +95,7 @@
             <div class="fil-screen fixed-attachment" style="background-image: url(./images/Developer.jpg)"></div>
         </section>
 
-        <section class="row">
+        <section class="row" id="experience">
             <article class="sec-header">
                 <h3> <i class="fa fa-history"></i> Experience <span class="badge badge-success">2 years+</span></h3>
                 <hr>
@@ -113,7 +117,6 @@
                                             <summary> more details... <i class="fa fa-arrow-right"></i> </summary>
                                         </details>
                                     </h6>
-                                    <!-- <h6>Full Stack Web Developer, Senior Software Engineer & now CTO</h6> -->
                                 </div>
                             </div>
                             <div class="back">
@@ -169,7 +172,6 @@
                                             <summary> more details... <i class="fa fa-arrow-right"></i> </summary>
                                         </details>
                                     </h6>
-                                    <!-- <h6>Full Stack Web Developer, Senior Software Engineer & now CTO</h6> -->
                                 </div>
                             </div>
                             <div class="back">
@@ -192,7 +194,7 @@
             <div class="fil-screen fixed-attachment" style="background-image: url(./images/Developer-1.jpg)"></div>
         </section>
 
-        <section class="text-banner">
+        <section class="text-banner" id="skills">
             <article class="sec-header">
                 <h3> <i class="fa fa-cogs"></i> Skills</h3>
                 <hr>
@@ -307,18 +309,221 @@
             <div class="fil-screen fixed-attachment" style="background-image: url(./images/Php.jpg)"></div>
         </section>
 
-        <section class="row">
+        <section class="row" id="projects">
             <article class="sec-header">
-                <h3>My Work</h3>
-                <hr>
+                <h3>Projects</h3>
+                More Than 20 Projects And Restful API's I have worked on.
             </article>
-            <article class="col-md-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis reprehenderit porro nisi qui nesciunt
-                    praesentium dolor, aspernatur dolores suscipit labore omnis fugit facere nobis quasi hic impedit
-                    fugiat id? Omnis laborum inventore corporis, reiciendis quas quos quia vitae magnam reprehenderit
-                    iste, dolorum quibusdam fugiat nisi nam id neque iure eum!</p>
+            <hr>
+            <article class="row">
+
+                <div class="container p8">
+                    <div class="resCarousel" data-items="2-4-4-4" data-slide="4" data-speed="900" data-animator="lazy">
+                        <div class="resCarousel-inner">
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div
+                                        style="background: url('./images/projects/jkp_portal.png') center top no-repeat; background-size: cover; height: 100px;">
+                                        <h1></h1>
+                                    </div>
+                                    <h3> <a href="https://portal.jkpholdings.com/login" target="__blank"> JKP Portal
+                                        </a></h3>
+                                    <span style="font-family: Arial;">
+                                        <h4 title="Technologies used"> <b> Technologies </b>
+                                        </h4>
+                                        <ul style="font-size:13px; font-weight: bold; line-height: 1.5em;">
+                                            <li>LARAVEL (Events, Jobs and Queues)</li>
+                                            <li>REDIS, SOCKET.IO, LARAVEL ECHO</li>
+                                            <li style="font-weight: normal;">(Real Time Event Broadcasting)</li>
+                                            <li>HTML, CSS, BOOTSTRAP</li>
+                                            <li>MYSQL, REDIS</li>
+
+                                        </ul>
+                                        <strong>Google Geo Location API</strong>
+                                        <br>
+                                        <strong>Google Street View API</strong>
+
+
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>2</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>3</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>4</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>5</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>6</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>7</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>8</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>9</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>10</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>11</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>12</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>13</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="tile">
+                                    <div>
+                                        <h1>14</h1>
+                                    </div>
+                                    <h3>Title</h3>
+                                    <p>content</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class='btn btn-default leftRs'> &lt;
+                        </button>
+                        <button class='btn btn-default rightRs'>></button>
+                    </div>
+                </div>
+
             </article>
+
+            <!-- <article class="row">
+                <div
+                    class="box box-slim col-xs-8 col-md-offset-2 col-md-8 col-md-offset-2 col-lg-offset-4 col-lg-8 col-lg-offset-4">
+                    <h6>Title</h6>
+                    <p class="small-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis reprehenderit
+                        porro
+                        nisi qui nesciunt
+                        praesentium dolor, aspernatur dolores suscipit labore omnis fugit facere nobis quasi hic
+                        impedit!</p>
+                </div>
+                <div
+                    class="box box-slim col-xs-8 col-md-offset-2 col-md-8 col-md-offset-2 col-lg-offset-4 col-lg-8 col-lg-offset-4">
+                    <h6>Title</h6>
+                    <p class="small-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis reprehenderit
+                        porro
+                        nisi qui nesciunt
+                        praesentium dolor, aspernatur dolores suscipit labore omnis fugit facere nobis quasi hic
+                        impedit!</p>
+                </div>
+                <div
+                    class="box box-slim col-xs-8 col-md-offset-2 col-md-8 col-md-offset-2 col-lg-offset-4 col-lg-8 col-lg-offset-4">
+                    <h6>Title</h6>
+                    <p class="small-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis reprehenderit
+                        porro
+                        nisi qui nesciunt
+                        praesentium dolor, aspernatur dolores suscipit labore omnis fugit facere nobis quasi hic
+                        impedit!</p>
+                </div>
+            </article> -->
         </section>
+
+
+
+
+
 
         <section class="row">
             <div class="fil-screen fixed-attachment" style="background-image: url(./images/Javascript.jpg)"></div>
@@ -337,6 +542,8 @@
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
+
+    <script src="js/resCarousel.js"></script>
 </body>
 
 </html>

@@ -4,6 +4,10 @@ body {
     font-size: 16px;
 }
 
+.small-text {
+    font-size: 12px;
+}
+
 .navbar {
     margin-bottom: 0px;
 }
@@ -201,4 +205,47 @@ div.progress-bar>span {
 .text-banner {
     text-align: center;
     margin: 20px 12px;
+}
+
+
+.box {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .24), 0 0 4px 0 rgb(0, 0, 0, .24);
+    box-sizing: border-box;
+    max-width: 320px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.box-slim {
+    padding: 40px;
+    max-width: 350px;
+}
+
+.carousel-box {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .24), 0 0 4px 0 rgb(0, 0, 0, .24);
+    box-sizing: border-box;
+    max-width: 320px;
+    padding: 30px;
+    /* margin: auto; */
+    /* margin-right: 20px; */
+
+}
+
+.carousel .item {
+    /* padding: 40px; */
+    /* margin: 20px; */
+}
+
+.carousel-box-slim {
+    padding: 40px;
+    max-width: 350px;
+}
+
+.carousel-inner>.item {
+    position: relative;
+    /* display: none; */
+    /* -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left; */
+    transition: 0.6s ease-in-out left;
 }
