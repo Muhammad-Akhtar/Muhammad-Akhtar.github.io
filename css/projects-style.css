@@ -6,39 +6,43 @@
     font-family: Arial;
 }
 
-.container.p8 .item .tile span div {
-    /* background-color: rgba(0, 0, 0, .4); */
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url(images/projects/jkp_portal.png); */
-    /* background-image: url('./images/projects/jkp_portal.png') center top no-repeat; */
+.container.p8 .item .tile span .skills-list {
     font-size: 16px;
     font-weight: bold;
     line-height: 2em;
     padding: 0 40px 0 45px;
     color: white;
+    transition: all 0.8s ease;
+    transform-style: preserve-3d;
+    background-position: center;
+    background-size: cover;
     /* opacity: 0.2; */
 
-    /* background-image: url('./images/projects/jkp_portal.png') center top no-repeat; */
-    /* background-size: cover; */
 }
 
-.container.p8 .item .tile span strong {
+.container.p8 .item .tile span .skills-list > ul {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.container.p8 .item .tile span .skills-list > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container.p8 .item .tile span.box-footer {
+    display: flex;
     color: #d9534f;
     font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    line-height: 1.5em;
+    height: 55px;
 }
 
-.container.p8 .item .tile .project-img:hover {
-    height: 500px;
+.container.p8 .item .tile span.box-footer > ul {
+    list-style-type: none;
+    padding: 0;
 }
-
-/* .container.p8 .item .tile span ul>li:nth-child(even) {
-    background-color: #d9534f;
-    display: inline;
-    padding: 0.2em 0.6em 0.3em;
-    font-weight: 700;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: 0.25em;
-} */

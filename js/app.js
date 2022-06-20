@@ -19,7 +19,35 @@ $(document).ready(function () {
             v = $(this).parent().children('.percent').html($(this).attr('aria-valuenow') + '%');
         })
     })
+
+    // Project section custom css
+    var bgg = "background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.8)100%), url('./images/projects/jkp_portal.png') center top no-repeat; background-size: cover;"
+    $(".container.p8 .item .tile .skills-list").mouseenter(function () {
+        $(this).css("cursor", "pointer");
+        height = parseInt(parseInt($(this).height())) + 70;
+        $(this).children("ul").fadeOut(600);
+        
+        $(this).css("height", height + "px");
+        $(this).css("background", "none, url('./images/projects/jkp_portal.png') center center no-repeat");
+        $(this).css("background-size", "cover");
+
+        $(".leftRs").css("left", "-45px");
+        $(".rightRs").css("right", "-45px");
+    });
+
+    $(".container.p8 .item .tile .skills-list").mouseleave(function () {
+        $(this).css("height", "auto");
+        $(this).attr("style", bgg);
+        $(this).children("ul").fadeIn(600);
+
+        $(".leftRs").css("left", "0");
+        $(".rightRs").css("right", "0");
+    });
+
 })
+
+
+
 
 //ResCarouselCustom();
 var pageRefresh = true;

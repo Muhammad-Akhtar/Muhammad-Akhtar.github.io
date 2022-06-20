@@ -4,6 +4,14 @@ body {
     font-size: 16px;
 }
 
+#about {
+    margin-bottom: 50px;
+}
+
+#experience {
+    margin-bottom: 50px;
+}
+
 .small-text {
     font-size: 12px;
 }
