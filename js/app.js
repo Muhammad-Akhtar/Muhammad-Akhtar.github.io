@@ -31,8 +31,8 @@ $(document).ready(function () {
         $(this).css("background", "none, url('./images/projects/jkp_portal.png') center center no-repeat");
         $(this).css("background-size", "cover");
 
-        $(".leftRs").css("left", "-45px");
-        $(".rightRs").css("right", "-45px");
+        // $(".leftRs").css("left", "-45px");
+        // $(".rightRs").css("right", "-45px");
     });
 
     $(".container.p8 .item .tile .skills-list").mouseleave(function () {
@@ -40,8 +40,8 @@ $(document).ready(function () {
         $(this).attr("style", bgg);
         $(this).children("ul").fadeIn(600);
 
-        $(".leftRs").css("left", "0");
-        $(".rightRs").css("right", "0");
+        // $(".leftRs").css("left", "0");
+        // $(".rightRs").css("right", "0");
     });
 
 })
