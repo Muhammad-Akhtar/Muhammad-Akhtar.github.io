@@ -12,13 +12,22 @@
     line-height: 2em;
     padding: 0 40px 0 45px;
     color: white;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease;
     transform-style: preserve-3d;
     background-position: center;
     background-size: cover;
     /* opacity: 0.2; */
 
 }
+
+.container.p8 .item .tile span > a {
+    text-decoration: none;
+}
+
+.container.p8 .item .tile span > a:hover {
+    text-decoration: none;
+}
+
 
 .container.p8 .item .tile span .skills-list > ul {
     margin-top: 6px;

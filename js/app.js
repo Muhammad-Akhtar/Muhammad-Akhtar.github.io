@@ -24,7 +24,7 @@ $(document).ready(function () {
     var bgg = "background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.8)100%), url('./images/projects/jkp_portal.png') center top no-repeat; background-size: cover;"
     $(".container.p8 .item .tile .skills-list").mouseenter(function () {
         $(this).css("cursor", "pointer");
-        height = parseInt(parseInt($(this).height())) + 70;
+        height = parseInt(parseInt($(this).height())) + 10;
         $(this).children("ul").fadeOut(600);
         
         $(this).css("height", height + "px");
