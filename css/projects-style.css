@@ -20,21 +20,21 @@
 
 }
 
-.container.p8 .item .tile span > a {
+.container.p8 .item .tile span>a {
     text-decoration: none;
 }
 
-.container.p8 .item .tile span > a:hover {
+.container.p8 .item .tile span>a:hover {
     text-decoration: none;
 }
 
 
-.container.p8 .item .tile span .skills-list > ul {
+.container.p8 .item .tile span .skills-list>ul {
     margin-top: 6px;
     margin-bottom: 6px;
 }
 
-.container.p8 .item .tile span .skills-list > ul {
+.container.p8 .item .tile span .skills-list>ul {
     list-style-type: none;
     padding: 0;
 }
@@ -48,10 +48,10 @@
     margin-bottom: 10px;
     justify-content: center;
     line-height: 1.5em;
-    height: 55px;
+    /* height: 55px; */
 }
 
-.container.p8 .item .tile span.box-footer > ul {
+.container.p8 .item .tile span.box-footer>ul {
     list-style-type: none;
     padding: 0;
 }

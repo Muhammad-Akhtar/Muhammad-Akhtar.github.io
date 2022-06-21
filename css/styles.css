@@ -257,3 +257,19 @@ div.progress-bar>span {
     -o-transition: 0.6s ease-in-out left; */
     transition: 0.6s ease-in-out left;
 }
+
+
+@media (max-width: 788px) {
+    .fixed-attachment {
+        background-attachment: scroll;
+    }
+
+    .no-show-mobile {
+        display: none;
+    }
+
+    .sec-header>h3 {
+        border-top: 1px solid lightgray;
+        padding-top: 20px;
+    }
+}
