@@ -37,7 +37,6 @@
     overflow: hidden;*/
     width: 100%;
     position: relative;
-    margin-bottom: 50px;
 }
 
 .resCarousel-inner {
@@ -45,7 +44,6 @@
     white-space: nowrap;
     font-size: 0;
     vertical-align: top;
-    /* margin-bottom: 50px; */
 }
 
 .resCarousel-inner .item {
@@ -97,7 +95,7 @@
 .banner .item div {
     display: table;
     width: 100%;
-    min-height: 100px;
+    /* min-height: 100px; */
     text-align: center;
     /*box-shadow: 0 1px 1px rgba(0, 0, 0, .1);*/
 }

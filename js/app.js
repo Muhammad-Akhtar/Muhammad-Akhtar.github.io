@@ -26,7 +26,7 @@ $(document).ready(function () {
         $(this).css("cursor", "pointer");
         height = parseInt(parseInt($(this).height())) + 10;
         $(this).children("ul").fadeOut(600);
-        
+
         $(this).css("height", height + "px");
         $(this).css("background", "none, url('./images/projects/jkp_portal.png') center center no-repeat");
         $(this).css("background-size", "cover");
@@ -43,6 +43,9 @@ $(document).ready(function () {
         // $(".leftRs").css("left", "0");
         // $(".rightRs").css("right", "0");
     });
+
+    // Some media queries for project section
+    
 
 })
 

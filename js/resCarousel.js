@@ -39,9 +39,10 @@ function ResCarouselResize() {
             var divValue = $(this).attr('data-value');
             var itemWidth = $(this).find('.item').width();
             $(this).find(".resCarousel-inner").scrollLeft(divValue * itemWidth);
-            //var itemsSplit = $(this).attr("data-items").split(',');
-            //var it = r >= 1200 ? itemsSplit[3] : r >= 992 ? itemsSplit[2] : r >= 768 ? itemsSplit[1] : itemsSplit[0];
-            //$(this).attr("data-itm", it);
+            // var itemsSplit = $(this).attr("data-items").split(',');
+            // console.log(itemsSplit);
+            // var it = r >= 1200 ? itemsSplit[3] : r >= 992 ? itemsSplit[2] : r >= 768 ? itemsSplit[1] : itemsSplit[0];
+            // $(this).attr("data-item", it);
         });
     }
     //var ResTimeout = setTimeout(function() { myfunction() }, 3000);
@@ -57,6 +58,7 @@ function ResCarouselSize() {
 
     //    styleCollector0 = styleCollector1 = styleCollector2 = styleCollector3 = "";
     $('.resCarousel').each(function(index) {
+        
         var itemsSplit = $(this).attr("data-items").split('-');
         $(this).addClass("ResSlid" + index);
 
