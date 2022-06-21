@@ -12,6 +12,12 @@ $("body").scrollspy({
 });
 
 $(document).ready(function () {
+
+    $('nav a').bind('click', function () {
+        $($(this).attr('href').animateScroll({ scrollSpeed: 3000, padding: 50 }))
+        event.preventDefault();
+    });
+
     $(".progress-bar").each(function (i, v) {
         // var bar_value = v.getAttribute('aria-valuenow');
         var bar_value = $(this).attr('aria-valuenow');
@@ -24,7 +30,7 @@ $(document).ready(function () {
     var bgg = "background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.8)100%), url('./images/projects/jkp_portal.png') center top no-repeat; background-size: cover;"
     $(".container.p8 .item .tile .skills-list").mouseenter(function () {
         $(this).css("cursor", "pointer");
-        height = parseInt(parseInt($(this).height())) + 10;
+        height = parseInt(parseInt($(this).height()));
         $(this).children("ul").fadeOut(600);
 
         $(this).css("height", height + "px");
@@ -45,7 +51,7 @@ $(document).ready(function () {
     });
 
     // Some media queries for project section
-    
+
 
 })
 

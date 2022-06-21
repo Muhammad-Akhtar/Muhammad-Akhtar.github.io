@@ -32,13 +32,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Brand</a>
+
+                    <!-- put your ma logo created during graphic designing course -->
+                    <div class="logo">
+                        <a class="brand-logo" href="#">MA</a>
+                    </div>
+
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                    </ul>
 
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#top">Home</a></li>
@@ -62,12 +65,17 @@
                     width="250px" height="250px">
                 <div class="title first-name">Muhammad <span class="last-name">Akhtar</span></div>
                 <div class="title last-name first-name" id="small-name">Akhtar</div>
+                <div class="visible-lg visible-md down-button down-icon">
+                    <a href="#about">
+                        <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                    </a>
+                </div>
             </div>
         </section>
 
         <section class="row sections-area" id="about">
             <article class="sec-header">
-                <h3> <i class="fa fa-user"></i> About Me</h3>
+                <h3> <i class="fa fa-user"></i> <span class="hover-underline-animation">About Me</span></h3>
                 <hr>
             </article>
             <article class="col-md-6">
@@ -101,7 +109,8 @@
 
         <section class="row sections-area" id="experience">
             <article class="sec-header">
-                <h3> <i class="fa fa-history"></i> Experience <span class="badge badge-success">2 years+</span></h3>
+                <h3> <i class="fa fa-history"></i> <span>Experience</span> <b class="badge badge-success">2
+                        years+</b></h3>
                 <hr>
             </article>
             <article>
@@ -201,7 +210,7 @@
 
         <section class="text-banner sections-area" id="skills">
             <article class="sec-header">
-                <h3> <i class="fa fa-cogs"></i> Skills</h3>
+                <h3> <i class="fa fa-cogs"></i> <span>Skills</span></h3>
                 <hr>
             </article>
             <article class="row" id="skills-progress">
@@ -317,7 +326,7 @@
 
         <section class="row sections-area" id="projects">
             <article class="sec-header">
-                <h3>Projects</h3>
+                <h3><i class="fa fa-code"></i> <span>Projects</span></h3>
                 More Than 20 Projects And Restful API's I have worked on.
             </article>
             <hr>
@@ -671,10 +680,22 @@
 
     </div>
 
-    <footer>
-        <h2>
-            Footer
-        </h2>
+    <footer class="footer-box">
+        <div class="">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="footer-copyright" style="box-sizing: border-box; float:left; margin-top: 6px;">
+                <span class="small-text"> &copy; 2022 Copyright Muhammad Akhtar</span>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="footer-social" style="display: inline-block; float: right;">
+                <a href="#" class="footer-links"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="footer-links"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="footer-links"><i class="fa fa-github"></i></a>
+                <a href="#" class="footer-links"><i class="fa fa-codepen"></i></a>
+            </div>
+
+        </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
