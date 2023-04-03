@@ -1,15 +1,45 @@
-create a project
+How to setup Javascript project node js environment?
+
+1- create a project Follow below steps to create 
+
+-> Make sure to download and install node js.
+$ node -v in cmd to check if node js available
+
+-> create a folder named portfolio-mysirg
+-> make the corresponding css, js and lib etc folders in above created folder.
+-> Create a file named index.htm inside the root directory of project.
+-> make sure that npm is installed. 
 
 $ npm init
+(Project initialized in npm according to the given details)
 
+=> Make a file named server.js inside the root directory of project.    
+(See the code in server.js it is the default basic setup code.)
+
+
+=> then install express. It helps us to make web server in node environment.
 $ npm install express
+(It will be installed in node_modules folder.)
 
-$ node server.js
-
-
-Inside Experience Section Just share in, how many companies you have worked.
-state the working year, in which technologies you have worked e.t.c
+=> below command is similar to php artisan serve.
+$ node server
 
 
-How to deploy on github?
+/***************************** END OF BASIC SETUP *************************************/
+
+
+HOW TO ADD REFERENCE OF DIFFERENT LIBRARIES?
+=> Put styles.css file inside css folder to apply our custom styles. link this file in index.html head tag.
+
+=> Put app.js file inside  js folder to apply our custom js code. give its reference before the body tag inside index.html.
+We are using jquery inside app.js file. So first give reference of jquery before the reference of app.js. as we include 
+dependencies first before using that dependency.
+
+=> Similarly give cdn reference of bootstrap.css and bootstrap.js.
+
+=> Except cdn you can store the libraries inside the lib directory. Like we did in case of bootstrap.min.css.
+=> then inside link tag give the reference of that file. It is working fine.
+
+
+
 

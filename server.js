@@ -1,3 +1,5 @@
+// Express library helps to make a web server in node environment.
+    
 var express = require('express');
 var app = express();
 
