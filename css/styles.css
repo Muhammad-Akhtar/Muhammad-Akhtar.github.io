@@ -1,11 +1,14 @@
 body {
-    /* font-family: 'Ibarra Real Nova', serif; */
-    font-family: 'Nova Square', cursive;
+    font-family: 'Arial', serif;
+    /* font-family: 'Nova Square', cursive; */
     font-size: 16px;
     overflow-x: hidden;
 }
 
-
+#experience {
+    font-family: 'Nova Square', cursive;
+    
+}
 .sections-area {
     margin-bottom: 50px;
 }
