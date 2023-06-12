@@ -41,5 +41,6 @@ dependencies first before using that dependency.
 => then inside link tag give the reference of that file. It is working fine.
 
 
-
+Following command to run on local server. 
+$ node server 
 
