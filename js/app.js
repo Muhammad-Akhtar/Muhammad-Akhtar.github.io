@@ -28,7 +28,7 @@ $(document).ready(function () {
 
     // Project section custom css
     var bgg = "background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.8)100%), url('./images/projects/jkp_portal.png') center top no-repeat; background-size: cover;"
-    $(".container.p8 .item .tile .skills-list").mouseenter(function () {
+    $(".p8 .item .tile .skills-list").mouseenter(function () {
         $(this).css("cursor", "pointer");
         height = parseInt(parseInt($(this).height()));
         $(this).children("ul").fadeOut(600);
@@ -41,7 +41,7 @@ $(document).ready(function () {
         // $(".rightRs").css("right", "-45px");
     });
 
-    $(".container.p8 .item .tile .skills-list").mouseleave(function () {
+    $("p8 .item .tile .skills-list").mouseleave(function () {
         $(this).css("height", "auto");
         $(this).attr("style", bgg);
         $(this).children("ul").fadeIn(600);

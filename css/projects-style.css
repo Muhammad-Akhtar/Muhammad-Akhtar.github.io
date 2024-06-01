@@ -1,12 +1,12 @@
-.container.p8 .item .tile h3 {
+.p8 .item .tile h3 {
     font-size: 36px;
 }
 
-.container.p8 .item .tile span {
+.p8 .item .tile span {
     font-family: Arial;
 }
 
-.container.p8 .item .tile span .skills-list {
+.p8 .item .tile span .skills-list {
     font-size: 16px;
     font-weight: bold;
     line-height: 2em;
@@ -20,26 +20,26 @@
 
 }
 
-.container.p8 .item .tile span>a {
+.p8 .item .tile span>a {
     text-decoration: none;
 }
 
-.container.p8 .item .tile span>a:hover {
+.p8 .item .tile span>a:hover {
     text-decoration: none;
 }
 
 
-.container.p8 .item .tile span .skills-list>ul {
+.p8 .item .tile span .skills-list>ul {
     margin-top: 6px;
     margin-bottom: 6px;
 }
 
-.container.p8 .item .tile span .skills-list>ul {
+.p8 .item .tile span .skills-list>ul {
     list-style-type: none;
     padding: 0;
 }
 
-.container.p8 .item .tile span.box-footer {
+.p8 .item .tile span.box-footer {
     display: flex;
     color: #d9534f;
     font-size: 16px;
@@ -51,7 +51,7 @@
     /* height: 55px; */
 }
 
-.container.p8 .item .tile span.box-footer>ul {
+.p8 .item .tile span.box-footer>ul {
     list-style-type: none;
     padding: 0;
 }
