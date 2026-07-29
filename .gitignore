@@ -1,3 +1,5 @@
 node_modules
 .env
 dist
+CONSOLIDATED_PORTFOLIO_CONTENT.md
+/Resume/*
